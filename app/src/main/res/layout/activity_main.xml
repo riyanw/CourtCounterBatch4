@@ -39,7 +39,7 @@
                 android:gravity="center"
                 android:onClick="plus3A"
                 android:text="+3 points"
-                android:textAllCaps="true" />
+                android:textAllCaps="true"  />
 
             <Button
                 style="@style/styleButton"
