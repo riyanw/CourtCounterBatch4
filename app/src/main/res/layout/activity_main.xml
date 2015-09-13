@@ -17,14 +17,11 @@
             android:padding="8dp">
 
             <TextView
+                style="@style/namaTim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="sans-serif-medium"
-                android:paddingTop="8dp"
-                android:text="Team A"
-                android:textColor="#616161"
-                android:textSize="14sp" />
+                android:text="Team A" />
 
             <TextView
                 style="@style/skorTim"
@@ -40,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:onClick="plus3A"
                 android:text="+3 points"
                 android:textAllCaps="true" />
 
@@ -78,14 +76,11 @@
             android:padding="8dp">
 
             <TextView
+                style="@style/namaTim"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:fontFamily="sans-serif-medium"
-                android:paddingTop="8dp"
-                android:text="Team B"
-                android:textColor="#616161"
-                android:textSize="14sp" />
+                android:text="Team B" />
 
             <TextView
                 style="@style/skorTim"
